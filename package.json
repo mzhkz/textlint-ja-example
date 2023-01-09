@@ -15,5 +15,8 @@
   "scripts": {
     "lint": "textlint ./target/*.md",
     "lintfix": "textlint --fix ./target/*.md"
+  },
+  "dependencies": {
+    "textlint-plugin-latex2e": "^1.2.0"
   }
 }

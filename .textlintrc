@@ -1,10 +1,16 @@
 {
+    "plugins": ["latex2e"],
     "rules": {
         "spellcheck-tech-word": true,
         "preset-ja-engineering-paper": true,
         "preset-ja-spacing": true,
-        "preset-jtf-style": true,
-        "preset-ja-technical-writing": true,
+        "preset-jtf-style": {
+            "1.2.2.ピリオド(.)とカンマ(,)": false,
+            "1.2.1.句点(。)と読点(、)": false
+        },
+        "preset-ja-technical-writing": {
+            "ja-no-mixed-period": false
+        },
         "preset-japanese": true
     }
 }
